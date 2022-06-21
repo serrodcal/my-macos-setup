@@ -1,0 +1,19 @@
+[alias]
+	ad = add
+	ci = commit
+	co = checkout
+	st = status
+	sw = switch
+	df = diff
+	br = branch
+	ph = push
+    pl = pull
+	rb = rebase
+	ust = reset HEAD --
+	last = log -1 HEAD
+	ll = log --oneline --graph --decorate --all
+[user]
+	name = Sergio Rodríguez Calvo
+	email = sergiorodriguezcalvo@gmail.com
+[color]
+	ui = auto

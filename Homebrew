@@ -1,0 +1,8 @@
+git
+curl
+tree
+podman
+docker-compose
+python3
+--cask sublime-text
+--cask visual-studio-code
