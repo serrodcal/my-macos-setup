@@ -7,8 +7,12 @@
 	df = diff
 	br = branch
 	ph = push
-    pl = pull
+	pl = pull
 	rb = rebase
+	ft = fetch
+	m = sw main
+	brd = branch -D
+	ftp = fetch --prune
 	ust = reset HEAD --
 	last = log -1 HEAD
 	ll = log --oneline --graph --decorate --all
