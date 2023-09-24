@@ -1,18 +1,22 @@
 [alias]
+	aliases = config --get-regexp ^alias
 	ad = add
+	af = add .
 	ci = commit
+	cia = commit --amend
 	co = checkout
 	st = status
 	sw = switch
 	df = diff
 	br = branch
 	ph = push
-	pl = pull
+	phf = push -f
+    pl = pull
 	rb = rebase
-	ft = fetch
-	m = sw main
-	brd = branch -D
-	ftp = fetch --prune
+    ft = fetch
+    m = sw main
+    brd = branch -D
+    ftp = fetch --prune
 	ust = reset HEAD --
 	last = log -1 HEAD
 	ll = log --oneline --graph --decorate --all
@@ -21,3 +25,5 @@
 	email = sergiorodriguezcalvo@gmail.com
 [color]
 	ui = auto
+[init]
+	defaultBranch = main
