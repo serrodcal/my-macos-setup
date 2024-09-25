@@ -1,6 +1,5 @@
 [alias]
 	aliases = config --get-regexp ^alias
-	aliases = config --get-regexp ^alias
 	ad = add
 	af = add .
 	ci = commit
