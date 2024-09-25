@@ -1,9 +1,11 @@
 [alias]
 	aliases = config --get-regexp ^alias
+	aliases = config --get-regexp ^alias
 	ad = add
 	af = add .
 	ci = commit
 	cia = commit --amend
+	adci = !git add -A && git commit
 	co = checkout
 	st = status
 	sw = switch
@@ -11,12 +13,13 @@
 	br = branch
 	ph = push
 	phf = push -f
-    pl = pull
+    	pl = pull
+	pr = pull --rebase
 	rb = rebase
-    ft = fetch
-    m = sw main
-    brd = branch -D
-    ftp = fetch --prune
+    	ft = fetch
+    	m = sw main
+    	brd = branch -D
+    	ftp = fetch --prune
 	ust = reset HEAD --
 	last = log -1 HEAD
 	ll = log --oneline --graph --decorate --all
